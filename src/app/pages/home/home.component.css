@@ -1,0 +1,18 @@
+nav{
+    background-color: transparent !important;
+    border-bottom: #41658A 2px solid !important;
+}
+
+.grid-container{
+    display: inline-grid;
+    justify-content: center;
+    grid-template-columns: repeat(4); ;
+    gap: 50px;
+    margin: 0px 50px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    padding:0 0 20px 20px;
+}

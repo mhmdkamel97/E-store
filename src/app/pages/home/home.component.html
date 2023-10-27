@@ -1,0 +1,12 @@
+<label >Categories</label>
+<select class="form-control w-50" (change)="selectedCategory($event)">
+      <option value="all" selected >All</option>
+      <option value="{{category}}"  *ngFor="let category of categories"><span (click)="selectedCategory($event)">{{category}}</span></option>
+</select>
+
+<div class="grid-container " *ngFor="let product of products">
+
+      <app-home-product-card (addToCart)="onAddToCart($event)" [product]="product"></app-home-product-card>
+
+</div>
+

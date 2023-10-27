@@ -1,0 +1,66 @@
+
+.mat-toolbar {
+    position: fixed;
+    top: 0; 
+    z-index: 1000;
+}
+.logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    font-family: monospace;
+    user-select: none;
+
+}
+::ng-deep .mat-badge-content { 
+    background-color: #0D2946 !important; 
+}
+
+::ng-deep .mat-toolbar{
+    background-color: #41658A !important;
+    padding: 20px 40px !important;
+    justify-content: space-between;
+}
+
+.view-cart{
+    border-bottom: #000 1px solid;
+    padding-bottom: 5px;
+}
+
+.view-cart h3{
+    padding-right: 50px;
+    cursor: default;
+    font-weight: bold;
+
+}
+
+
+.items{
+    display: flex ;
+    justify-content: space-around ;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+
+.items .item-name{
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 50px;
+    cursor: default;
+    line-height: 50%;
+
+
+}
+
+.items .item-price{
+    font-size: 16px;
+    font-weight: bold;
+    cursor: default;
+    line-height: 50%;
+    
+}
+
+.total-price{
+    border-top: #000 1px solid;
+}

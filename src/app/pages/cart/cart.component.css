@@ -1,0 +1,12 @@
+*{
+    text-transform: capitalize;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.myBtn{
+    border: none;
+    background-color: transparent;
+}
